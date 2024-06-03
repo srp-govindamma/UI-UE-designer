@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('img1.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image horizontally and vertically */
+    /* Additional background properties can be added as needed */
+}
+
+/* Basic styles */
+header {
+  background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjusts the background image size to cover the entire header */
+    background-position: center; /* Centers the background image */
+    /*background-color: #181be4;*/
+    color: #1c08ca;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #d13506;
+    text-decoration: none;
+    font-size: 30px;
+}
+nav ul {
+  color:#10139c;
+  list-style-type: none;
+    text-align: right;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image img {
+  width: 50%;
+  max-width: 400px;
+  height: 500px;
+  position:right;
+}
+
+.contact-info {
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+main {
+    padding: 60px;
+    color:rgb(234, 236, 232);
+    text-align: left;
+
+}
+
+footer {
+    background-color: #cf6e1e;
+    color: #221616;
+    text-align: center;
+    padding:10px;
+    font-size:20px;
+    width: 100%;
+    /* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 20px;
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #e43306;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #bb009c;
+    color: white;
+  }
+}

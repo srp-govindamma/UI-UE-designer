@@ -1,0 +1,6 @@
+body {
+    background-image: url('img1.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image horizontally and vertically */
+    /* Additional background properties can be added as needed */
+}

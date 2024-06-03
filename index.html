@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body{
+            background-image: url('img1.png');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+           <!-- <li><a href="#">Home</a></li> !-->
+           <!--  <li><a href="#">About</a></li>!-->
+            <!--  <li><a href="#">Contact</a></li> !-->
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Dropdown Menu</title>
+                <style>
+                  nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #f4f4f4;
+                    padding: 10px;
+                  }
+                
+                  nav ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                  }
+                
+                  nav ul li {
+                    margin-right: 20px;
+                  }
+                
+                  nav ul li:last-child {
+                    margin-right: 0;
+                  }
+                
+                  nav ul li a {
+                    text-decoration: none;
+                    color: #e48c0a;
+                  }
+                
+                  .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                  }
+                
+                  .dropdown:hover .dropdown-content {
+                    display: block;
+                  }
+                
+                  .dropdown-content a {
+                    color: #2317c9;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                  }
+                
+                  .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                  }
+                </style>
+                </head>
+                <body>
+                
+                <nav>
+                  <ul>
+                    <li class="dropdown">
+                        <a href="#">Home</a>
+                    <div class="dropdown-content">
+                        <a href="#">Page 1</a>
+                        <a href="#">page 2</a>
+                        <a href="#">page 3</a>
+                      </div>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">About</a>
+                      <div class="dropdown-content">
+                        <a href="#">About Us</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Mission & Vision</a>
+                      </div>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Services</a>
+                      <div class="dropdown-content">
+                        <a href="#">Service 1</a>
+                        <a href="#">Service 2</a>
+                        <a href="#">Service 3</a>
+                      </div>
+                    </li>
+                    <li><a href="Contact.html">Contact</a></li>
+                  
+                  </ul>
+                  <ul>
+                    <li><a href="login.html">Login</a></li>
+                  </ul>
+
+                </nav>
+        </body>
+
+    <main>
+         <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Three Boxes in One Row</title>
+            <style>
+                .container {
+                    width: 100%; /* Adjust as needed */
+                    display: flex; /* Use flexbox to align items */
+                    flex-wrap: wrap; /* Allow items to wrap to the next line */
+                    justify-content: space-between; /* Space between boxes */
+                }
+                .box {
+                  background-image: url('box.jpg'); /* Replace with your image path */
+                  background-size: cover; /* Adjusts the background image size to cover the entire header */
+                  background-position: center; /* Centers the background image */
+    /*background-color: #181be4;*/
+                    width: calc(30% - 10px); /* Adjust width of each box (subtracting margin) */
+                    height: 200px; /* Adjust height of each box */
+                    background-color: #0a0a0a; /* Adjust background color */
+                    border: 1px solid #fbfcfb; /* Add border for visibility */
+                    box-sizing: border-box; /* Include border and padding in box dimensions */
+                    margin-bottom: 10px; /* Add some space between rows */
+                }
+            </style>
+            </head>
+            <body>
+            <div class="container">
+                <div class="box">
+                    <h1>Digital Marketing</h1>
+                    
+                    <p>Digital marketing involves promoting products or services through digital channels such as social media, search engines, email, and websites. It leverages online tools and platforms to reach and engage target audiences, track campaign performance, and optimize strategies for better results and higher return on investment (ROI). </p>
+                     </div>
+                <div class="box">
+                <h1>Content marketing</h1>
+                <p1>Content marketing is a strategic approach focused on creating and distributing valuable, relevant, and consistent content to attract and retain a clearly defined audience. It aims to drive profitable customer action by providing information that educates, entertains, or inspires, ultimately building trust and establishing brand authority in the industry.</p1>
+              </div>
+                <div class="box">
+                  <h1>Email marketing</h1>
+                  <p1>Email marketing is a digital marketing strategy that involves sending commercial messages to a group of people via email. It is used to build relationships with customers, promote products or services, drive sales, and increase brand awareness. Effective email marketing involves personalized content, segmentation, and measurement of results for optimization. </p1>
+                 </div>
+                <div class="box">Box 4 content</div>
+                <div class="box">Box 5 content</div>
+                <div class="box">Box 6 content</div>
+              
+            
+                <!-- Add more boxes as needed -->
+                
+            </div>
+            </body>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>Contact us</p>
+        <p>Our office location</p>
+              <!-- Add more social media icons as needed -->
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+
+      
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
